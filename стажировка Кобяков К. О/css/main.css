@@ -1,0 +1,280 @@
+html, body {
+    position: relative;
+    font-family: 'Montserrat Variable', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 570px;
+    max-width: 100%;
+    overflow-x: visible;
+    background-color: #252B42;
+    height: 100%;
+    
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: auto;
+    width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Header*/
+
+header {
+    width: 1322px;
+    height: 90px;
+    margin: 0 59px 13px 59px;
+}
+
+.navbar {
+    padding: 17px 138px 0 138px;
+}
+
+.logo_name {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header .navbar {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 0;
+}
+
+.navigation_menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navigation_menu li {
+    display: inline-block;
+}
+
+.navigation_menu li a {
+    display: inline-block;
+    padding: 15px;
+}
+
+.join {
+    padding-left: 240px;
+    padding-right: 15px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_button {
+    color: white;
+    background-color: #23A6F0;
+    font-weight: 700;
+    border: 1px;
+    border-radius: 5px;
+    user-select: none;
+    padding: 15px 25px;
+    letter-spacing: 0.2px;
+    
+}
+
+/*Центр сайта*/
+
+main {
+    width: 1046px;
+    height: 1442px;
+    margin: 0 197px 21px 197px;
+    padding: 80px 172.5px 816px 172.5px;
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+    flex: auto;
+}
+
+.main_information {
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+}
+
+.surname {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+    padding: 40px 210px 40px 210px;
+}
+
+.testtask {
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    padding: 0 78.5px 40px 78.5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.abouy_me {
+    padding: 0 100px 40px 100px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: white;
+    text-align: center;
+}
+
+
+.change {
+    color: white;
+    background-color: #23A6F0;
+    font-weight: 700;
+    border: 1px;
+    border-radius: 5px;
+    user-select: none;
+    padding: 15px 40px;
+    letter-spacing: 0.2px;
+}
+
+/*карточки*/
+
+main .carts {
+    width: inherit;
+    height: 288px;
+    display: flex;
+    margin: 80px 0 80px 0;
+    justify-content: left;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 0.2;
+    padding: 20px 0 35px 0;
+
+}
+
+hr {
+    width: 50px;
+    margin: 0;
+	padding: 0;
+	height: 2px;
+	border: 0px;
+    border-top: 1px solid #000000;
+	background-color: #E74040;
+
+}
+
+/*1*/
+
+.cart_1 {
+    width: 328px;
+    height: 288px;
+    margin: 80px 30px 0 -172.5px;
+    padding: 35px 49px 35px 40px;
+    background-color: white;
+    text-align: left;
+}
+
+.text_carts {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.credit_cart {
+    width: 60px;
+    height: 48px;
+}
+
+
+
+/*2*/
+
+.cart_2 {
+    width: 328px;
+    height: 288px;
+    margin: 80px 30px 0 0;
+    padding: 23px 49px 35px 40px;
+    background-color: white;
+    text-align: left;
+}
+
+.text_smile {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.smile {
+    width: 60px;
+    height: 60px;
+}
+
+/*3*/
+
+.cart_3 {
+    width: 328px;
+    height: 288px;
+    margin: 80px 172.5px 0 0;
+    padding: 37px 49px 35px 40px;
+    background-color: white;
+    text-align: left;
+}
+
+.mark_text {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.mark {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+/*Подвал*/
+
+footer {
+    height: 175px;
+    color: #737373;
+    background-color:  #FAFAFA;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+.footer_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0 100px;
+}
